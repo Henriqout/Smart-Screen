@@ -351,19 +351,9 @@ img:hover {
 	transition: opacity 0.3s ease-in-out;
 }
 
-#zap {
-	position: relative;
-	right: 205px;
-	top: 45px;
-	width: 3%;
-}
 
-#insta {
-	position: relative;
-	right: 285px;
-	top: 40px;
-	width: 3%;
-}
+
+
 
 footer {
 	background-color: #000000;
