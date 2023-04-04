@@ -353,15 +353,15 @@ img:hover {
 
 #zap {
 	position: relative;
-	right: 285px;
-	top: 56px;
+	right: 205px;
+	top: 45px;
 	width: 3%;
 }
 
 #insta {
 	position: relative;
-	right: 409px;
-	top: 56px;
+	right: 285px;
+	top: 40px;
 	width: 3%;
 }
 
@@ -372,9 +372,12 @@ footer {
 }
 
 h8 {
-		position: relative;
+		width: 10px;
+		height: 10px;
+	position: relative;
 		bottom: 580px;
 		left: 250px;
+		
 }
 
   
