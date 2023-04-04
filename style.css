@@ -1,0 +1,381 @@
+@font-face {
+    font-family: "Lobster-Regular";
+    src: url("Lobster-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    font-family: "Lobster-Regular";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    font-family: "Montserrat";
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #6b6767;
+}
+
+main {
+    font-family: "Montserrat";
+    color: #000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h4 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h5 {
+    border-radius: 0px;
+	position: relative;
+    right: 150px;
+}
+#Screen {
+	border-radius: 120px;
+	position: relative;
+	bottom: 60px;
+	
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+section h2 {
+    position: relative;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style: none;
+    margin-left: 2rem;
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+section#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 2rem;
+    
+}
+
+section#banner img,
+section#banner h2 {
+    border-radius: 5px;
+}
+
+section#banner img {
+    width: 90%;
+    height: auto;
+	position: relative;
+    margin-left: 57px;
+    margin-right: auto;
+    color: #f00808;
+	bottom: 60px;
+}
+h7 {
+	
+	position: relative;
+	top: 250px;
+	right: 460px;
+	
+}
+
+section#banner h2 {
+    font-size: 3rem;
+    margin-right: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+section#purchase {
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+	text-align: center;
+	justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #0e0c0e;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.692);
+}
+
+section#purchase .product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+section#purchase h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+section#purchase p {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+section#purchase form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+section#purchase label {
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+
+section#purchase input[type="quantity"],
+section#purchase input[type="number"] {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	width: 4rem;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+section#purchase input[type="quantity"] {
+	margin-right: 1rem;
+}
+
+section#purchase input[type="number"] {
+	margin-right: 1rem;
+}
+
+#copia1 {
+	transition: transform 0.2s ease-in-out;
+	margin-bottom: 1rem;
+	width: 100px;
+	height: 100px;
+}
+
+#copia2 {
+	transition: transform 0.2s ease-in-out;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+#copia3 {
+	transition: transform 0.2s ease-in-out;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+#copia4 {
+	transition: transform 0.2s ease-in-out;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+#Relogios {
+	position: relative;
+	right: 150px;
+}
+
+section#purchase .product-details img {
+	width: 40%;
+	margin-right: 2rem;
+}
+
+section#purchase .product-details .caixa {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+section#Carrinho button {
+	background-color: #228B22;
+}
+
+h2 {
+	width: 100%;
+}
+
+  
+section#purchase input[type="quantity"],
+section#purchase input[type="number"] {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	width: 4rem;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+section#purchase input[type="number"] {
+	margin-right: 1rem;
+}
+
+section#purchase .add-to-cart {
+	font-size: 1.5rem;
+	background-color: #000000;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+section#purchase .add-to-cart:hover {
+	background-color: #444;
+}
+
+img {
+	transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.image-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Estilos para a janela Lightbox */
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.lightbox .content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transition: ease-in-out;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 20px;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+}
+
+#Final {
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	color: #020202;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	justify-content: space-between;
+}
+
+.lightbox img {
+	max-width: 100%;
+}
+
+.lightbox.show {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.3s ease-in-out;
+}
+
+#zap {
+	position: relative;
+	right: 285px;
+	top: 56px;
+	width: 3%;
+}
+
+#insta {
+	position: relative;
+	right: 409px;
+	top: 56px;
+	width: 3%;
+}
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+}
+
+h8 {
+		position: relative;
+		bottom: 580px;
+		left: 250px;
+		
+}
+
+  
