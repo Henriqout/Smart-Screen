@@ -79,15 +79,12 @@ h4 {
 }
 
 h5 {
-    border-radius: 0px;
 	position: relative;
     right: 150px;
 }
 #Screen {
-	border-radius: 120px;
 	position: relative;
 	bottom: 60px;
-	
 }
 
 section {
