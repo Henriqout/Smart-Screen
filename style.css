@@ -541,11 +541,9 @@ img:hover {
    }
    
    /*Hover*/
-   .card-img1:hover {
-	position: relative;
-	color: white;
+ .card-img1:hover {
 	transform: translateY(-25%);
-	box-shadow: rgb(205, 156, 223) 0px 13px 47px -5px, rgba(245, 237, 237, 0.3) 0px 8px 16px -8px;
+	box-shadow: rgb(205, 156, 223) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
    }
    
    .card-button1:hover {
