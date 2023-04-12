@@ -90,12 +90,13 @@ h4 {
     text-align: center;
 }
 
-h5 {
+h5 { 
+position: relative;
+    right: 170px;
 }
 #Screen {
 	position: relative;
 	bottom: 60px;
-left: 170px;
 }
 
 section {
