@@ -490,7 +490,7 @@ img:hover {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
    }
    
-   .card1-img {
+   .card-img1 {
 	background-color: #fdfdfd;
 	height: 40%;
 	width: 100%;
@@ -498,7 +498,7 @@ img:hover {
 	transition: .3s ease;
    }
    
-   .card1-info {
+   .card-info1 {
 	padding-top: 10%;
    }
    
@@ -507,7 +507,7 @@ img:hover {
 	height: 20px;
    }
    
-   .card1-footer {
+   .card-footer1 {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
