@@ -92,11 +92,12 @@ h4 {
 
 h5 {
 	position: relative;
-    right: 1700px;
+    right: 170px;
 }
 #Screen {
 	position: relative;
 	bottom: 60px;
+ right: 20px;
 }
 
 section {
